@@ -1,11 +1,11 @@
 # hw-03
 hw-03 - HTML+CSS &amp; Marks+Channels
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: https://ds4200-s22.github.io/hw-03-floris-ayushi/
 
 ## Purpose
 
-The purpose of this assignment is practice more advanced HTML and CSS, and to practive decomposing a visualization into marks and channels.  
+The purpose of this assignment is practice more advanced HTML and CSS, and to practice decomposing a visualization into marks and channels.  
 
 ## Instructions
 
