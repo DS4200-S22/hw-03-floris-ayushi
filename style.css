@@ -6,31 +6,62 @@ body {
     text-align: center;
 }
 
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    margin: 10px 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.explanation {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #source-list {
     list-style: inside;
 }
 
-.container {
+.shape-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0px;
-    flex-flow: row wrap;
     justify-content: space-between;
-    font-size: 0;
+    margin: 40px;
 }
 
-.grid-item {
-    display: flex;
-    flex: 1;
-    font-size: 0;
-    border: 3px solid rgb(0, 0, 0);
-    padding: 5px;
-    margin: 5px;
-    transform: scale(0.4);
-    vertical-align: bottom;
-    object-fit: cover;
-    flex-wrap: nowrap;
-    align-self: flex-start;
-    flex-grow: 1;
+.shape {
+    width: 10vw;
+    height: 10vw;
+}
+
+.my-rect {
+    width: 10vw;
+    height: 10vw;
+    fill: #9bc6df;
+}
+
+.my-rect:hover {
+    fill: #2b6cab;
+}
+
+.my-circle {
+    r: 5vw;
+    cx: 5vw;
+    cy: 5vw;
+    fill: #a8da7c;
+}
+
+.my-circle:hover {
+    fill: #2d9526;
 }
