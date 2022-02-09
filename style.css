@@ -12,23 +12,25 @@ body {
 
 .container {
     display: flex;
-    -webkit-display: flex;
-    -moz-display: flex;
-    -ms--display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    flex: 1 1 auto;
-    overflow: auto;
+    padding: 0px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 0;
 }
 
 .grid-item {
     display: flex;
-    -webkit-display: flex;
-    -moz-display: flex;
-    -ms--display: flex;
-    border: 5px solid rgb(0, 0, 0);
+    flex: 1;
+    font-size: 0;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
     transform: scale(0.4);
-    object-fit: cover;
     vertical-align: bottom;
+    object-fit: cover;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    flex-grow: 1;
 }
