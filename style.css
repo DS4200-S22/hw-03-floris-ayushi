@@ -6,6 +6,30 @@ body {
     text-align: center;
 }
 
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    margin: 10px 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.explanation {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #source-list {
     list-style: inside;
 }
@@ -13,6 +37,7 @@ body {
 .shape-container {
     display: flex;
     justify-content: space-between;
+    margin: 40px;
 }
 
 .shape {
