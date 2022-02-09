@@ -36,8 +36,7 @@ img {
 
 .shape-container {
     display: flex;
-    justify-content: space-between;
-    margin: 40px;
+    justify-content: space-evenly;
 }
 
 .shape {
